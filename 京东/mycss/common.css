@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  background-color: #f6f6f6;
+  font: 14px/1.5 -apple-system, Helvetica, sans-serif;
+}
+ul li,
+ol li {
+  list-style: none;
+}
+a {
+  color: #666;
+  text-decoration: none;
+}
+img {
+  border: 0;
+  display: block;
+}
+input,
+textarea {
+  outline: none;
+  border: none;
+}
+textarea {
+  resize: none;
+}
+.clearFix::after,
+.clearFix::before {
+  content: '';
+  display: block;
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  clear: both;
+}
